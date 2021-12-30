@@ -1,29 +1,28 @@
 
-  # jfdklsa;
+  # README Generator
+  #### **Created by Chuck DeBrosse**
 
   ## Description
-  fdjksla;
+  generates readmes
 
   ## Table of Contents
     * [Installation](#installation)
     * [Usage](#usage)
     * [Credits](#credits)
     * [License](#license)
+    * [Contact](#contact)
 
   ## Installation
-  jfkhdsl
+  steps
 
   ## Usage
-  jfdk
+  instructions
 
   ## Credits
-  fdjklsaal
+  
 
   ## License
   MIT
 
   ## Contact
-  Contact me on my GitHub account or via email:
-  Github: https://github.com/cmdebrosse
-  email: cmdebrosse@outlook.com
-  
+  Contact me on my [GitHub account](github.com/cmdebrosse) or via [email](cmdebrosse@outlook.com)

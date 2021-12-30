@@ -8,6 +8,45 @@ const questions = () => {
   var readmeData = inquirer.prompt([
     {
       type: 'input',
+      name: 'fullName',
+      message: 'What is your name? (Required)',
+      validate: fullNameInput => {
+        if (fullNameInput) {
+          return true;
+        } else {
+          console.log("Please provide your name.");
+          return false;
+        }
+      }
+    },
+    {
+      type: 'input',
+      name: 'userName',
+      message: 'What is your GitHub username? (Required)',
+      validate: userNameInput => {
+        if (userNameInput) {
+          return true;
+        } else {
+          console.log("Please provide your GitHub username.");
+          return false;
+        }
+      }
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'What is your email address? (Required)',
+      validate: emailInput => {
+        if (emailInput) {
+          return true;
+        } else {
+          console.log("Please provide your email.");
+          return false;
+        }
+      }
+    },
+    {
+      type: 'input',
       name: 'title',
       message: 'What is the title of your project? (Required)',
       validate: titleInput => {
@@ -57,8 +96,8 @@ questions()
       if (err) throw new Error(err);
     });
   });
-// // TODO: Create a function to write README file
-//   fs.writeFile('newREADME.md', readmeData);
+
+// TODO: Create a function to write README file
 
 // TODO: Create a function to initialize app
 // function init() {

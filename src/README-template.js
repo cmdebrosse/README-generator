@@ -1,8 +1,9 @@
 module.exports = readmeData => {
-  const { title, description, installation, usage, credits, license } = readmeData;
+  const { fullName, title, description, installation, usage, credits, license, userName, email } = readmeData;
 
   return `
   # ${title}
+  #### **Created by ${fullName}**
 
   ## Description
   ${description}
@@ -12,6 +13,7 @@ module.exports = readmeData => {
     * [Usage](#usage)
     * [Credits](#credits)
     * [License](#license)
+    * [Contact](#contact)
 
   ## Installation
   ${installation}
@@ -26,8 +28,5 @@ module.exports = readmeData => {
   ${license}
 
   ## Contact
-  Contact me on my GitHub account or via email:
-  Github: https://github.com/cmdebrosse
-  email: cmdebrosse@outlook.com
-  `;
+  Contact me on my [GitHub account](github.com/${userName}) or via [email](${email})`;
 };
