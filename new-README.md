@@ -1,9 +1,12 @@
 
-  <h1 align="center">README.md Generator</h1>
-  > **Created by Chuck DeBrosse**
+  <h1 align="center">README Generator</h1>
+
+  > **Created by Chuck**
 
   ## Description
   generates readmes
+
+  ---
 
   ## Table of Contents
   - [Installation](#installation)
@@ -12,17 +15,27 @@
   - [License](#license)
   - [Contact](#contact)
 
+  ---
+
   ## Installation
   steps
+
+  ---
 
   ## Usage
   instructions
 
+  ---
+
   ## Credits
   people
 
+  ---
+
   ## License
-  ![badge](https://img.shields.io/badge/Apache2.0-license-brightgreen)
+  ![badge](https://img.shields.io/badge/GPLv2-license-blue)
+  
+  ---
 
   ## Contact
   GitHub account: github.com/cmdebrosse
