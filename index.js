@@ -82,7 +82,7 @@ const questions = () => {
       type: 'list',
       name: 'license',
       message: 'Which license would you like to include?',
-      choices: ['MIT', 'ISC', 'GNU GPLv2', 'GNU GPLv3', 'Apache License 2.0', 'Boost Software License 1.0', 'The Unlicense']
+      choices: ['MIT', 'ISC', 'GPLv2', 'GPLv3', 'Apache2.0', 'Boost1.0', 'Unlicense']
     }
   ])
   return readmeData;
@@ -96,12 +96,3 @@ questions()
       if (err) throw new Error(err);
     });
   });
-
-// TODO: Create a function to write README file
-
-// TODO: Create a function to initialize app
-// function init() {
-// };
-
-// Function call to initialize app
-// init();

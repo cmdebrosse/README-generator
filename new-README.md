@@ -1,16 +1,16 @@
 
-  # README Generator
-  #### **Created by Chuck DeBrosse**
+  <h1 align="center">README.md Generator</h1>
+  > **Created by Chuck DeBrosse**
 
   ## Description
   generates readmes
 
   ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [License](#license)
-    * [Contact](#contact)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Contact](#contact)
 
   ## Installation
   steps
@@ -19,10 +19,12 @@
   instructions
 
   ## Credits
-  
+  people
 
   ## License
-  MIT
+  ![badge](https://img.shields.io/badge/Apache2.0-license-brightgreen)
 
   ## Contact
-  Contact me on my [GitHub account](github.com/cmdebrosse) or via [email](cmdebrosse@outlook.com)
+  GitHub account: github.com/cmdebrosse
+
+  email: cmdebrosse@outlook.com
