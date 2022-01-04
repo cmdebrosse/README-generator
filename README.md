@@ -7,36 +7,41 @@ This application walks the user through a series of command line prompts that dy
 
 ---
 
-  ## Table of Contents
+## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [License](#license)
   - [Contact](#contact)
 
   ---
 
-  ## Installation
-  In order to install this application you will need to clone this repo as well as install Node to your machine.
+## Installation
+  In order to install this application you will need to clone this repo as well as install Node to your machine. Once installed, use your CLI to find the root directory where the repo was cloned and run this command to install the Inquirer package:
+  
+  ```
+  npm install inquirer
+  ```
+  
+  Finally, while you are still located in the project's root folder run the application with the command:
+  
+  ```
+  node index.js
+  ```
 
   ---
 
   ## Usage
-  instructions
-
-  ---
-
-  ## Credits
-  people
+  As the prompts display within your command line, answer with as much detail as desired. Your answers will be saved in a new file called *new-README.md* With all of the sections in place you can open the new file and edit as needed.
 
   ---
 
   ## License
-  ![badge](https://img.shields.io/badge/GPLv2-license-blue)
+  ![badge](https://img.shields.io/badge/MIT-license-blue)
   
   ---
 
   ## Contact
+  
   GitHub account: github.com/cmdebrosse
-
+  
   email: cmdebrosse@outlook.com
