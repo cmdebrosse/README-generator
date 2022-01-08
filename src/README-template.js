@@ -6,12 +6,12 @@ module.exports = readmeData => {
 
   > **Created by ${fullName}**
 
-  ## Description
+  ### Description
   ${description}
 
-  ---
 
   ## Table of Contents
+
   - [Installation](#installation)
   - [Usage](#usage)
   - [Credits](#credits)
@@ -37,7 +37,7 @@ module.exports = readmeData => {
 
   ## License
   ![badge](https://img.shields.io/badge/${license}-license-blue)
-  
+
   ---
 
   ## Contact
