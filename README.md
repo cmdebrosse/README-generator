@@ -2,6 +2,9 @@
 
 > **Created by Chuck DeBrosse**
 
+https://user-images.githubusercontent.com/92185857/148654467-0134ecee-f719-4d07-bbd8-64189b1809a4.mp4
+
+
 ## Description
 This application walks the user through a series of command line prompts that dynamically fills sections in a README.md template. That template is then exported and saved as a completely new file with all styling and formatting automatically applied. Countless hours will be saved simply by answering a few questions via your favorite CLI and applying those answers to a perfectly arranged README.md specific to your project.
 
